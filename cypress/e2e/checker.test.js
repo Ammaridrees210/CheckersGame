@@ -12,7 +12,7 @@ describe("CheckMate Game", () => {
         landingPage.checker5StepsGame();
     });
 
-    it.only("Checker Game should be completed and Win", () => {
+    it("Checker Game should be completed and Win", () => {
         checkerGame.checkGamePlayMoves();
     });
 });
