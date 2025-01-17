@@ -1,13 +1,13 @@
 {
-  "name": "automate-checker",
+  "name": "checker-Gameplay",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cypress:run": "cypress run",
+    "cy:run": "cypress run",
     "cy:open": "npx cypress open",
     "cy:run:headed": "npx cypress run --headed",
-    "cy:run": "npx cypress run --browser chrome"
+    "cy:run:Browser": "npx cypress run --browser chrome"
   },
   "keywords": [],
   "author": "",
